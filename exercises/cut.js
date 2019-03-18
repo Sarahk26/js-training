@@ -12,6 +12,11 @@
 
 //* Begin of tests
 const assert = require('assert')
-
+function cutFirst(str1){
+    console.log(str1.substr(2));
+}
+function cutLast(str1){
+    
+}
 assert.fail('You must write your own tests')
 // End of tests */

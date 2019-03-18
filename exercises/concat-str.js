@@ -10,6 +10,9 @@
 
 //* Begin of tests
 const assert = require('assert')
+function concatStr(arg1, arg2){
+    return arg1 + arg2
+}
 
 assert.strictEqual(typeof concatStr, 'function', 'Should be a function')
 assert.strictEqual(concatStr.length, 2, 'Should takes 2 arguments')
